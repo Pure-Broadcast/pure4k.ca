@@ -853,12 +853,26 @@
       /* 1s ease-in applied to all changes when moving away from hover */
       transition: all 1s ease-in;
     }
-
-    .panel-box-link p {
+    .panel-box-link-small {
+      display: inline-block;
+      position:relative;
+      width: 90px;
+      height: 20px;
+      justify-content:center;
+      align-items:center;
+      background-color: #FFF;
+      margin:0;
+      padding:3px;
+      text-align:left;
+      border: 1px solid #000;
+      /* 1s ease-in applied to all changes when moving away from hover */
+      transition: all 1s ease-in;
+    }
+    .panel-box-link p, .panel-box-link-small p {
       background-color: transparent;
       margin:auto;
       text-align:center;
-      color: #000;
+      color: #000!important;
       padding:0;
       font-size:20px;
       line-height:1;
@@ -868,16 +882,17 @@
     }
 
     /* Hover States */
-    .panel-box-link:hover {
+    .panel-box-link:hover, .panel-box-link-small:hover {
       border: 1px solid #FFF;
       box-shadow: 1px 1px 2px grey;
       background-color: #000;
+      color:#FFF!important;
       /* .2s ease-in applied to everything on hover trigger */
       transition: all .2s ease-in;
     }
 
-    .panel-box-link:hover p {
-      color: #FFF;
+    .panel-box-link:hover p, .panel-box-link-small:hover p {
+      color: #FFF!important;
       /* Matches parent transition timing on hover trigger */
       transition: color .2s ease-in;
     }
