@@ -1385,6 +1385,34 @@ details.is-closing .content-wrapper {
        width:100vw!important;
        padding:0!important
      }
+    .panel-box-link-small {
+      display: inline-block;
+      position:relative;
+      width: 90px;
+      height: 14px;
+      justify-content:center;
+      align-items:center;
+      background-color: #FFF;
+      font-size:12px;
+      margin:0;
+      padding:3px;
+      text-align:left;
+      border: 1px solid #000;
+      /* 1s ease-in applied to all changes when moving away from hover */
+      transition: all 1s ease-in;
+    }
+   .panel-box-content li {
+      background-color: transparent;
+      margin:auto;
+      text-align: left;
+      color: #000!important;
+      padding:0;
+      font-size:14px;
+      line-height:1;
+      margin:3px;
+      /* Matches parent transition timing when un-hovering */
+      transition: color 1s ease-in;
+    }
      .faq-container {
        left:0!important;
        right:0!important;
