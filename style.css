@@ -1295,8 +1295,8 @@ details.is-closing .content-wrapper {
        left:0!important;
        right:0!important;
        justify-content:center!important;
-       width: 80dvw!important;
-       max-width: 650px!important;
+       width: 80%!important;
+       max-width: 350px!important;
        margin:auto!important;
        height:auto;
        padding:0!important
