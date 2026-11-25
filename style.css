@@ -1245,6 +1245,9 @@ details.is-closing .content-wrapper {
      h4 {
       margin:10px auto 
     }
+    header {
+      border:none}
+    }
     .white-bg {
        height:100dvh!important;
        bottom:0!important;
