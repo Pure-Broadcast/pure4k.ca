@@ -1216,18 +1216,19 @@ details.is-closing .content-wrapper {
       color:#FFF;
       width:30px;
       height:30px;
+      background-color:#FFF;
       border:1px solid #000;
       border-radius:15px;
       padding:0;
       margin:auto;
-      box-shadow:none;
       z-index:9999;
-      transition:box-shadow 1s ease-in
+      transition:all 1s ease-in
     }
     .footer-item:hover {
+      background-color:#000;
       border:1px solid #FFF;
-      box-shadow:1px 2px 8px #000;
-      transition:box-shadow .2s ease-in
+      transition:all .2s ease-in;
+      color:#FFF
     }
     
 
@@ -1241,7 +1242,11 @@ details.is-closing .content-wrapper {
 
 
     @media only screen and (max-width: 1280px) and (orientation:landscape) {
-     .white-bg {
+     h4 {
+      margin:10px auto 
+    }
+     }
+      .white-bg {
        height:100dvh!important;
        bottom:0!important;
        padding:0
