@@ -1443,7 +1443,8 @@ details.is-closing .content-wrapper {
        left:0;
        right:0;
        width:100vw!important;
-       padding:0!important
+       padding:0!important;
+       z-index:1!important
      }
     .panel-box-link-small {
       display: inline-block;
