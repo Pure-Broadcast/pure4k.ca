@@ -1522,6 +1522,8 @@ details.is-closing .content-wrapper {
        width:100vw!important;
        display:flex!important;
        padding:5vw;
+       height:80%;
+       align-items:center;
        margin:auto!important;
        justify-content:center!important;
        left:0;
