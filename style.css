@@ -455,7 +455,7 @@
     .v-card-outro { z-index:9; background: url("/media/anthony-james-photoshoot-pretty-boy-hd.jpg") center 15% / cover no-repeat} /* 0 INTRO */
 
 
-    .white-bg {background:#FFF;object-fit:cover;height:100vh!important;width:100%;z-index:1;margin:0;padding:0}
+    .white-bg {background:#FFF;object-fit:cover;height:100vh!important;width:100%;z-index:0!important;margin:0;padding:0}
 
     /* Promo Cards */
     .v-promo-1 { background: url("https://i.ytimg.com/vi/UVeTLXO_wDc/maxresdefault.jpg") center center / cover no-repeat}
