@@ -1461,8 +1461,8 @@ details.is-closing .content-wrapper {
       border: 1px solid #000;
       /* 1s ease-in applied to all changes when moving away from hover */
       transition: all 1s ease-in;
-    }
-   .panel-box-content li {
+    }  
+    .panel-box-content li {
       background-color: transparent;
       margin:auto;
       text-align: left;
@@ -1518,11 +1518,10 @@ details.is-closing .content-wrapper {
        font-size: 1rem;
        font-weight:700
      }
-
      .panel-box-content, .intro-panel-box-content {
-       width:100vw!important;
+       width:96vw!important;
        display:flex!important;
-       padding:5vw;
+       padding:2vw;
        height:80%;
        align-items:center;
        margin:auto!important;
