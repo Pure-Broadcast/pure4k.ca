@@ -783,7 +783,7 @@
       width:50vw!important;
       margin:0;
       height:100%;
-      z-index:5;
+      z-index:5!important;
       color:#FFF
     }
     .mobile-panel-box-link-box {
