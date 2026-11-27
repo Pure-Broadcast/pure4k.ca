@@ -2432,6 +2432,7 @@ details.is-closing .content-wrapper {
       align-items:center!important;
       top:auto;
       left:auto;
+      width:30px;
       right:10dvw!important;
       bottom:0dvw!important;
       margin:auto!important;
