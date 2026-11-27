@@ -2023,14 +2023,16 @@ details.is-closing .content-wrapper {
       background:rgb(0 0 0/ 0.4)
     }
     footer {
-      border:none
+      border:none;
+      z-index:99999!important
     }
     .footer-box-left {
       display:none
     }
     .footer-box-right {
       width:100vw;
-      margin:auto
+      margin:auto;
+      z-index:99999!important
         }
     .footer-box {
       height:25px;
