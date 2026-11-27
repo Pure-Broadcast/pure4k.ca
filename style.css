@@ -785,7 +785,7 @@
       width:50vw!important;
       margin:0;
       height:100%;
-      z-index:0!important;
+      z-index: 5!important;
       color:#FFF
     }
     .mobile-panel-box-link-box {
@@ -1192,7 +1192,7 @@ details.is-closing .content-wrapper {
       justify-content:space-between;
       align-items:center;
       bottom:0;
-      z-index:99999!important;
+      z-index:1!important;
       text-align:center
     }
     .footer-box-left i {
