@@ -1180,7 +1180,7 @@ details.is-closing .content-wrapper {
       align-items:center;
       padding:0;
       margin:auto;
-      z-index:9999!important
+      z-index:99999!important
     }
     .footer-box-left, .footer-box-right {
       display:flex;
@@ -1192,7 +1192,7 @@ details.is-closing .content-wrapper {
       justify-content:space-between;
       align-items:center;
       bottom:0;
-      z-index:9999!important;
+      z-index:99999!important;
       text-align:center
     }
     .footer-box-left i {
@@ -1223,7 +1223,7 @@ details.is-closing .content-wrapper {
       border-radius:15px;
       padding:0;
       margin:auto;
-      z-index:9999;
+      z-index:99999!important;
       transition:all 1s ease-in
     }
     .footer-item:hover {
@@ -1231,7 +1231,7 @@ details.is-closing .content-wrapper {
       border:1px solid #FFF;
       transition:all .2s ease-in;
       color:#FFF;
-      z-index:9999!important
+      z-index:99999!important
     }
     
 
