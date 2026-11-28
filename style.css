@@ -329,7 +329,7 @@
       border:1px solid #000;
       transition:background-color 1s ease-in-out;
       border-radius:5px;
-      z-index:99999!important
+      z-index:9999!important
     }
     .myBtn:hover {
       background-color:#000;
@@ -1180,7 +1180,7 @@ details.is-closing .content-wrapper {
       align-items:center;
       padding:0;
       margin:auto;
-      z-index:99999!important
+      z-index:9999!important
     }
     .footer-box-left, .footer-box-right {
       display:flex;
@@ -1230,7 +1230,8 @@ details.is-closing .content-wrapper {
       background-color:#000;
       border:1px solid #FFF;
       transition:all .2s ease-in;
-      color:#FFF
+      color:#FFF;
+      z-index:9999!important
     }
     
 
