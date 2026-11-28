@@ -1123,7 +1123,7 @@ details.is-closing .content-wrapper {
       margin:auto 10px!important;
       background:rgb(0 0 0 / 0.5);
       overflow-x: scroll;
-      oveflow-y:hidden;
+      overflow-y:hidden;
       scroll-snap-align: center; /* Snaps the card exactly to the screen edge */
       overflow-anchor: start
     }
@@ -1177,7 +1177,7 @@ details.is-closing .content-wrapper {
       align-items:center;
       padding:0;
       margin:auto;
-      z-index:9999!important
+      z-index:10!important
     }
     .footer-box-left, .footer-box-right {
       display:flex;
@@ -1189,7 +1189,7 @@ details.is-closing .content-wrapper {
       justify-content:space-between;
       align-items:center;
       bottom:0;
-      z-index:9999!important;
+      z-index:10!important;
       text-align:center
     }
     .footer-box-left i {
@@ -1220,15 +1220,14 @@ details.is-closing .content-wrapper {
       border-radius:15px;
       padding:0;
       margin:auto;
-      z-index:9999!important;
+      z-index:10!important;
       transition:all 1s ease-in
     }
     .footer-item:hover {
       background-color:#000;
       border:1px solid #FFF;
       transition:all .2s ease-in;
-      color:#FFF;
-      z-index:9999!important
+      color:#FFF
     }
     
 
