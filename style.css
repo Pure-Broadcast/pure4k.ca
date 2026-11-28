@@ -63,7 +63,7 @@
     a:link {
       text-decoration:none
     }
-    a:hover {;
+    a:hover {
     }
     .pure4k-logo {
       display:flex;
@@ -312,18 +312,31 @@
 
               										/* TOP BUTTON */
 
+.myBtn-box {
+     display:flex;
+     position: sticky;
+     width:100vw!important;
+     height:100vh!important;
+     justify-content:flex-end;
+     align-items: flex-end;
+     left:0;
+     top:0;
+     right:0;
+     bottom:0;
+     margin:0 2.5% 2.5% 0!important;
+     padding:0;
+     z-index:9999!important
+  }
 
    .myBtn {
       display:flex;
-      position:fixed;
+      position:absolute;
       width:30px!important;
       height:30px!important;
       justify-content:center;
       align-items:center!important;
       top:auto;
       padding:0;
-      right:.5vw!important;
-      bottom:1vh!important;
       margin:auto!important;
       background-color:#FFF;
       border:1px solid #000;
@@ -1227,7 +1240,8 @@ details.is-closing .content-wrapper {
       background-color:#000;
       border:1px solid #FFF;
       transition:all .2s ease-in;
-      color:#FFF
+      color:#FFF;
+      z-index:10!important
     }
     
 
