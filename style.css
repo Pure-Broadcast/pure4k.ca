@@ -329,7 +329,7 @@
       border:1px solid #000;
       transition:all 1s ease-in-out;
       border-radius:5px;
-      z-index:99999!important
+      z-index:9999!important
     }
     .myBtn p {
       background-color: transparent;
@@ -352,7 +352,7 @@
       background-color: #000;
       /* .2s ease-in applied to everything on hover trigger */
       transition: all .2s ease-in;
-      z-index:99999!important
+      z-index:9999!important
     }
 
     .myBtn p:hover {
@@ -389,7 +389,7 @@
       clip: rect(0, auto, auto, 0); 
       clip-path: inset(0 0 0 0);
       pointer-events: none;
-      z-index:99999!important
+      z-index:9999!important
     }
     /* The box for the stationary number */
     .page-counter {
@@ -405,7 +405,7 @@
       align-items:center;
       margin:0;
       padding:0;
-      z-index: 99999!important
+      z-index: 9999!important
     }
     /* This is your actual number - it is 100% rock solid and will not jump */
     .stationary-number {
@@ -417,7 +417,7 @@
       font-family: monospace, sans-serif;
       color: #FFF;
       text-shadow:-1px -1px 0 #000, 1px -1px 0 #000,-1px  1px 0 #000, 1px  1px 0 #000!important;
-      z-index: 99999!important
+      z-index: 9999!important
     }
 
 
@@ -1177,7 +1177,7 @@ details.is-closing .content-wrapper {
       align-items:center;
       padding:0;
       margin:auto;
-      z-index:99999!important
+      z-index:9999!important
     }
     .footer-box-left, .footer-box-right {
       display:flex;
@@ -1189,7 +1189,7 @@ details.is-closing .content-wrapper {
       justify-content:space-between;
       align-items:center;
       bottom:0;
-      z-index:99999!important;
+      z-index:9999!important;
       text-align:center
     }
     .footer-box-left i {
@@ -1220,7 +1220,7 @@ details.is-closing .content-wrapper {
       border-radius:15px;
       padding:0;
       margin:auto;
-      z-index:99999!important;
+      z-index:9999!important;
       transition:all 1s ease-in
     }
     .footer-item:hover {
@@ -1228,7 +1228,7 @@ details.is-closing .content-wrapper {
       border:1px solid #FFF;
       transition:all .2s ease-in;
       color:#FFF;
-      z-index:99999!important
+      z-index:9999!important
     }
     
 
