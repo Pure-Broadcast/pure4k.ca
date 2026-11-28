@@ -327,13 +327,9 @@
       margin:auto!important;
       background-color:#FFF;
       border:1px solid #000;
-      transition:background-color 1s ease-in-out;
+      transition:all 1s ease-in-out;
       border-radius:5px;
-      z-index:9999!important
-    }
-    .myBtn:hover {
-      background-color:#000;
-      transition:background-color .2s ease-in-out
+      z-index:99999!important
     }
     .myBtn p {
       background-color: transparent;
@@ -356,6 +352,7 @@
       background-color: #000;
       /* .2s ease-in applied to everything on hover trigger */
       transition: all .2s ease-in;
+      z-index:99999!important
     }
 
     .myBtn p:hover {
